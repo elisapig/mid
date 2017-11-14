@@ -1,0 +1,11 @@
+package com.fju.mid.Lucky;
+import java.util.Random;
+public class Lucky {
+
+	public static void main(String[] args) {
+		int i = 1;
+		i = (int)(Math.random()*10)+1;
+		
+	}
+
+}

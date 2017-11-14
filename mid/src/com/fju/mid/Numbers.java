@@ -9,9 +9,16 @@ public class Numbers {
 		Scanner scanner = new Scanner(System.in);
 		String line = scanner.nextLine();
 		int a = Integer.parseInt(line);
-		for(int n = 1; n <= a; n++){
-		System.out.print(n + " ");
-	}
+		for (int n = 1; n <= a; n++) {
 
-}
+			if ((n % 5) == 0) {
+				System.out.print("# ");
+			}
+			System.out.print(n + " ");
+			if (n == 10) {
+				break;
+			}
+		}
+
+	}
 }
